@@ -1,0 +1,69 @@
+Ficha del Documento
+
+..................................................................................
+   Fecha     ! Revisión    ! Autor                   !  Verificado dep. Calidad  !
+..................................................................................
+             !             !AYALA ALMADA, Deborat    !                           !
+             !             !DEMAIO, Juliana Denisse  !                           !
+             !             !DEVIA, Triana            !                           !
+ Sept 2022   !  Nov 2022   !GOMEZ, Andrea Yanina     !                           !
+             !             !ORTIZ, Jésica            !                           !
+             !             !RAMIREZ, Fernanda Daniela!                           !
+             !             !RAU, Maximiliano         !                           !
+             !             !ROBLE CARDOZO, Ruth      !                           !
+             !             !VÁZQUEZ, Luciano         !                           !
+.............!.............!VELASQUEZ, Celeste.......!...........................!
+
+
+1) INTRODUCCION:
+    Este documento es una Especificación de Requisitos Software (ERS) para el Sistema
+de información para la gestión de procesos y control de inventarios. Esta especificación se
+ha estructurado basándose en las directrices dadas por el estándar IEEE Práctica
+Recomendada para Especificaciones de Requisitos Software ANSI/IEEE 830, 1998.
+
+ 1.1 Propósito:
+        El presente documento tiene como propósito definir las especificaciones funcionales,
+para el desarrollo de un sistema de información web que permitirá a los usuarios socializar 
+entre sí para formar equipos y amistades. El mismo será utilizado por usuarios de juegos en
+línea de todas las edades.
+
+ 1.2 Alcance:
+        Esta especificación de requisitos está dirigida al usuario del sistema a desarrollar,
+ el cual fue definido como "Game Mate" en el que los usuarios registrados podrán crear un per-
+fil y subir las mejores jugadas y comentarlas. Además de buscar dúos y amistades en videojuegos
+en línea. También contará con filtros por consola/PC, zona geográfica, sexo, edad y calificación 
+o rango de juego.
+
+ 1.3 Personal Involucrado: (editar para cada miembro del equipo)
+    Nombre: ......
+    Rol: Scrum master, diseñador, analista, programador
+    Categoría Profesional: Estudiante de Desarrollo Web en ISPC
+    Responsabilidad: segun rol de cada uno
+    Infornación de Contacto: .....
+
+ 1.4 Definiciones, acrónimos y abreviaturas:
+    ......................................................................
+    !  Nombre  !       Descripción                                       !
+    ......................................................................
+    !Usuario....!Persona que usará el sistema para gestionar procesos....!
+    !ERS........!Especificación de Requisitos Software...................!
+    !SIS- I     ! Sistema de Información Web para la Gestión de Procesos !            
+    !...........! Administrativos y Académicos...........................!
+    !PC.........!Computadora Personal....................................! 
+    .
+    .
+    . (editar a medida que se usen mas acrónimos, etc.)
+
+ 1.5 Referencias: 
+    .........................................................................
+    ! Título del documento     !             Referencias                    !
+    .........................................................................
+    ! Standard IEEE 830 - 1998 ! IEEE                                       !
+    !........................................................................
+
+ 1.6 Resumen:
+     En este documento se encuentra una Introducción general del sistema, sus objetivos y  
+funcionamiento, que estará explicado en una forma sencilla de entender por el cliente.
+     Luego continúa con la descripción de los usuarios a los que va digido el sistema y posibles
+ limitaciones teniendo en cuenta las restricciones del mismo.
+     Finalmente se detallan los requisitos a partir de los cuales se desarrolló el sistema.
