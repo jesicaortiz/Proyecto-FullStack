@@ -213,6 +213,68 @@ funcionamiento, que estará explicado en una forma sencilla de entender por el c
    •  Requerimiento NO funcional:	RNF01	RNF02
    •  Prioridad del requerimiento: Alta
 
+•  Identificación del requerimiento: RF12
+   •  Nombre del Requerimiento: Festión sección comunidad foros.
+   •  Características: Los usuarios registrados podran mantener una discusión y ver información
+      sobre un tema determinado por otros usuarios de manera pública.
+   •  Descripcion del requerimiento: El sistema contará con un formulario de contacto que tendrá los
+      siguientes campos a llenar por el usuario de manera obligatoria: Nombre, apellido, email y provincia.
+   •  Requerimiento NO funcional:	RNF01	RNF02
+   •  Prioridad del requerimiento: Alta
 
+   3.3 Requerimientos No funcionales
 
+   •  Identificación del requerimiento: RF01
+   •  Nombre del Requerimiento: Interfaz del sistema.
+   •  Características: El sistema presentara una interfaz de usuario sencilla para que sea de facil
+      manejo a los usuarios del sistema.
+   •  Descripcion del requerimiento: El sistema debe tener una interfaz de uso intuitiva y sencilla.
+   •  Prioridad del requerimiento: Alta
 
+   •  Identificación del requerimiento: RF02
+   •  Nombre del Requerimiento: Diseño de la interfaz a la caracteristica del sitio web.
+   •  Características: El sistema deberá tener una interfaz de usuario, tenien en cuenta las Caracteristicas
+      del sitio web.
+   •  Descripcion del requerimiento: La interfaz de usuario debe ajustarse a las caracteristicas del sitio web
+      para usuarios no registrados.
+   •  Prioridad del requerimiento: Alta
+
+   •  Identificación del requerimiento: RF03
+   •  Nombre del Requerimiento: Adaptabilidad de representacion de contenido en diferentes dispositivos.
+   •  Características: Garantizar la adaptación de la representación del contenido a características del
+      dispositivo como la resolución de pantalla. 
+   •  Descripcion del requerimiento: Adaptación de la representación del contenido a características del 
+      dispositivo como la resolución de pantalla mediante el uso de Media Queries.
+   •  Prioridad del requerimiento: Alta
+
+   •  Identificación del requerimiento: RF04
+   •  Nombre del Requerimiento: Desempeño.
+   •  Características: El sistema garantizara a los usuarios un desempeño en cuanto a los datos almacenado
+      en el sistema ofreciéndole una confiabilidad a esta misma.
+   •  Descripcion del requerimiento: Garantizar el desempeño del sistema informático a los diferentes usuarios.
+      En este sentido la información almacenada o registros realizados podrán ser consultados y actualizados permanente y simultáneamente,
+      sin que se afecte el tiempo de respuesta.
+   •  Prioridad del requerimiento: Alta
+
+   •  Identificación del requerimiento: RF05
+   •  Nombre del Requerimiento: Nivel de Usuario.
+   •  Características: Garantizara al usuario el acceso de información de acuerdo al nivel que posee.
+   •  Descripcion del requerimiento: Facilidades y controles para permitir el acceso a la información al personal autorizado a través 
+      de Internet, con la intención de consultar y subir información pertinente para cada una de ellas.
+   •  Prioridad del requerimiento: Alta
+
+   •  Identificación del requerimiento: RF06
+   •  Nombre del Requerimiento: Confiabilidad continúa del sistema. Ya que es una página web diseñada para la carga de datos y
+      comunicación entre usuarios.
+   •  Características: Garantizara al usuario el acceso de información de acuerdo al nivel que posee.
+   •  Descripcion del requerimiento: La disponibilidad del sistema debe ser continua con un nivel de servicio para los usuarios 
+      de 7 días por 24 horas, garantizando un esquema adecuado que permita la posible falla en cualquiera de sus componentes, contar 
+      con una contingencia, generación de alarmas.
+   •  Prioridad del requerimiento: Alta
+
+   •  Identificación del requerimiento: RF07
+   •  Nombre del Requerimiento: Seguridad en información.
+   •  Características: El sistema garantizara a los usuarios una seguridad en cuanto a la información que se procede en el sistema.
+   •  Descripcion del requerimiento: Garantizar la seguridad del sistema con respecto a la información y datos que se manejan 
+      tales sean documentos, archivos y contraseñas.
+   •  Prioridad del requerimiento: Alta
