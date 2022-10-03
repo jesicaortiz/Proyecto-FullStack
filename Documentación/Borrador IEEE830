@@ -28,11 +28,17 @@ entre sí para formar equipos y amistades. El mismo será utilizado por usuarios
 línea de todas las edades.
 
  1.2 Alcance:
-        Esta especificación de requisitos está dirigida al usuario del sistema a desarrollar,
- el cual fue definido como "Game Mate" en el que los usuarios registrados podrán crear un per-
-fil y subir las mejores jugadas y comentarlas. Además de buscar dúos y amistades en videojuegos
-en línea. También contará con filtros por consola/PC, zona geográfica, sexo, edad y calificación 
-o rango de juego.
+    El nombre del proyecto elegido es “Game Mate”, en sus objetivos se encuentra la búsqueda
+    de dúos y amistades para el juego en línea. No se encargara de otras características que 
+    no sean esas, tampoco se tomara responsabilidad de lo que pueda suceder fuera de esta plataforma 
+    entre la comunicación de los usuarios, ni conflictos que puedan desarrollarse.
+    Los usuarios del sistema contaran con un registro, será una plataforma destinada a mayores
+    de 18 años, podrán filtrar su búsqueda por juego, rangos de jugadores, zona geográfica, entre otros.
+    Con el avance de la plataforma se incorpora un e-commerce para la comercialización de productos
+    y cuentas de usuarios.
+    Dentro de la misma, también contaran con una sección dedicada a la denuncia por mal uso, sugerencias 
+    para una mejora y reclamos por inconvenientes con la misma, todo a través de un formulario de contacto.
+
 
  1.3 Personal Involucrado: (editar para cada miembro del equipo)
     Nombre: ......
@@ -67,3 +73,23 @@ funcionamiento, que estará explicado en una forma sencilla de entender por el c
      Luego continúa con la descripción de los usuarios a los que va digido el sistema y posibles
  limitaciones teniendo en cuenta las restricciones del mismo.
      Finalmente se detallan los requisitos a partir de los cuales se desarrolló el sistema.
+     
+2) DESCRIPCION GENERAL:
+   El sistema se enfocara en la relación entre usuarios para diferentes tipos de juegos online.
+   No tendrá dependencia con otras plataformas
+   
+2.2 Caracteristicas de los usuarios:
+   Plataforma destinada a mayores de 18 años que estén o quieran ingresar en el mundo de los
+   juegos online compartidos. No se requiere un gran conocimiento ni estudios avanzados para 
+   utilizar la plataforma, cualquier persona podrá descargarla e interactuar respetando normas
+   básicas establecidas.
+   
+2.3 Restricciones:
+   Sera alojado en un servidor virtual, se contratara un hosting adecuado a los requerimientos
+   y será responsive, para su uso en cualquier dispositivo con acceso a internet.
+
+2.4 Lenguajes y tecnologías en uso:
+   HTML, CSS, JavaScript, Python.
+   El sistema deberá tener un diseño intuitivo e implementacion sencilla y ser adaptable
+   a diferentes dispositivos.
+   
