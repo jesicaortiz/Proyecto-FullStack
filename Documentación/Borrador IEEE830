@@ -93,3 +93,33 @@ funcionamiento, que estará explicado en una forma sencilla de entender por el c
    El sistema deberá tener un diseño intuitivo e implementacion sencilla y ser adaptable
    a diferentes dispositivos.
    
+3. Requisitos especificos
+3.1 Requisitos comunes de las interfaces
+   3.1.1 1 Interfaces de usuario
+   La interfaz de usuario consistirá en un conjuunto de ventanas con botones, listas 
+   y campos de teInterfaces de hardwarexto que desplegaran información necesaria 
+   para llevar a cabo las tareas.
+   
+   3.1.2 Interfaces de hardware
+      Sera necesario que los equipos dispongan de lo siguiente:
+         •	Tarjeta de red
+         •	Procesador 1.2 GHz o superior
+         •	Memoria interna de 1Gb mínimo
+         •	512 Mb de RAM o superior
+         •	Teclado
+         •	Ratón
+  
+ 3.1.3 Interfaces de software
+      •	Sistema operativo Windows 7 o superior
+      •	MAC OS versión 10 o superior
+      •	Navegador Chrome, Mozilla, Opera o similar
+ 
+ 3.1.4 Interfaces de comunicación
+   Los servidores, clientes y aplicaciones se comunicarán entre si mediante
+   protocolos estándares en Internet, siempre que sea posible
+
+
+
+
+
+
