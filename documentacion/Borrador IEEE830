@@ -118,7 +118,100 @@ funcionamiento, que estará explicado en una forma sencilla de entender por el c
    Los servidores, clientes y aplicaciones se comunicarán entre si mediante
    protocolos estándares en Internet, siempre que sea posible
 
+3.2 Requisiots funcionales
 
+   •  Identificación del requerimiento: RF01
+   •  Nombre del Requerimiento: Autentificación del Administrador.
+   •  Características:	El administrador deberá identificarse para acceder a cualquier parte del sistema.
+   •  Descripción del requerimiento: El sistema podrá ser consultado por el administrador con total nivel
+      de accesibilidad independientemente del módulo en el cual se encuentre.
+   •  Requerimiento NO funcional:	RNF01 RNF02
+   •  Prioridad del requerimiento: Alta
+
+   •  Identificación del requerimiento: RF02
+   •  Nombre del Requerimiento:Registro de Administrador.
+   •  Características:	El administrador deberá registrarse en el sistema para acceder a cualquier 
+      parte del sistema sin restricciones ni limitaciones.
+   •  Descripción del requerimiento: El sistema permitirá al administrador registrarse. El administrador
+      debe suministrar datos como: Nombre, Apellido, E-mail, Usuario y Contraseña.
+   •  Requerimiento NO funcional:	RNF01  RNF02
+   •  Prioridad del requerimiento:  Alta
+   
+   •  Identificación del requerimiento: RF03
+   •  Nombre del Requerimiento: Autentificación de Usuario.
+   •  Características:	Los usuarios deberán identificarse para acceder a cualquier parte del sistema.
+   •  Descripción del requerimiento: El sistema podrá ser consultado por cualquier usuario dependiendo 
+      del módulo en el cual se encuentre y su nivel de accesibilidad.
+   •  Requerimiento NO funcional:	RNF01	RNF02
+   •  Prioridad del requerimiento: Alta
+
+   •  Identificación del requerimiento: RF04
+   •  Nombre del Requerimiento: Registrar Usuarios.
+   •  Características: Los usuarios deberán registrarse en el sistema para acceder a cualquier parte 
+      del sistema que requiera registro.
+   •  Descripcion del requerimiento: El sistema permitirá al usuario registrarse. El usuario
+      debe suministrar datos como: Nombre, Apellido, E-mail, Usuario y Contraseña
+   •  Requerimiento NO funcional:	RNF01	RNF02
+   •  Prioridad del requerimiento: Alta
+
+   •  Identificación del requerimiento: RF05
+   •  Nombre del Requerimiento: Crear Perfil de Usuario.
+   •  Características: Los usuarios registrados podrán crearse un perfil.
+   •  Descripcion del requerimiento: El sistema permitirá al usuario crearse un perfil.
+      El usuario podrá agregar información adicional si lo desea: Descripcion, imagen de perfil,
+      edad, fecha de nacimiento, provincia, genero, signo zodiacal, dispositivos, redes, juegos favoritos
+      jugadas, galeria de imagenes y géneros de juegos.
+   •  Requerimiento NO funcional:	RNF01	RNF02
+   •  Prioridad del requerimiento: Alta
+ 
+   •  Identificación del requerimiento: RF06
+   •  Nombre del Requerimiento: Consultar Perfil de Usuario.
+   •  Características: Los usuarios registrados podrán consultar su perfil ilimitadamente.
+   •  Descripcion del requerimiento: El sistema ofrecerá al usuario la posibilidad de consultar todos
+      los aspectos que desee de su perfil ilimitadamente
+   •  Requerimiento NO funcional:	RNF01	RNF02
+   •  Prioridad del requerimiento: Alta
+
+   •  Identificación del requerimiento: RF07
+   •  Nombre del Requerimiento: Modificar perfil de usuario
+   •  Características: Los usuarios registrados podrán modificar su perfil ilimitadamente
+   •  Descripcion del requerimiento: El sistema ofrecerá al usuario la posibilidad de modificar todos los
+      aspectos que desee de su perfil ilimitadamente
+   •  Requerimiento NO funcional:	RNF01	RNF02
+   •  Prioridad del requerimiento: Alta
+
+   •  Identificación del requerimiento: RF08
+   •  Nombre del Requerimiento: Eliminar Perfil de Usuario.
+   •  Características: Los usuarios registrados podran eliminar su perfil.
+   •  Descripcion del requerimiento: El sistema ofrecerá al usuario la posibilidad de eliminar
+      su perfil
+   •  Requerimiento NO funcional:	RNF01	RNF02
+   •  Prioridad del requerimiento: Alta
+
+   •  Identificación del requerimiento: RF09
+   •  Nombre del Requerimiento: Buscar usuarios.
+   •  Características: Los usuarios registrados podran buscar a otros usuarios a traves de un buscador.
+   •  Descripcion del requerimiento: El sistema permitirá que los usuarios busquen a otros usuarios filtrando
+      la busqueda por edad, genero, provincia, dispositivos, juegos favoritos y géneros de juegos.
+   •  Requerimiento NO funcional:	RNF01	RNF02
+   •  Prioridad del requerimiento: Alta
+
+   •  Identificación del requerimiento: RF10
+   •  Nombre del Requerimiento: Interactuar con usuarios
+   •  Características: Los usuarios registrados podran chatear con otros usuarios registrados.
+   •  Descripcion del requerimiento: El sistema permitirá que los usuarios interacúen con otros usuarios a traves
+      de un chat mediante texto y emoticones.
+   •  Requerimiento NO funcional:	
+   •  Prioridad del requerimiento: Alta
+
+   •  Identificación del requerimiento: RF11
+   •  Nombre del Requerimiento: Festión sección comunidad foros.
+   •  Características: Los usuarios registrados podran mantener una discusión y ver información
+      sobre un tema determinado por otros usuarios de manera pública.
+   •  Descripcion del requerimiento: El sistema permitirá la interaccion y discusion de usuarios
+      sobre temas ya antes planteas y el planteamiento de nuevos temas.
+   •  Requerimiento NO funcional:	RNF01	RNF02
+   •  Prioridad del requerimiento: Alta
 
 
 
