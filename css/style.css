@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pie{
+    background-color: #090909;
+}
+body{
+    font-family: 'Orbitron';
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 63px;
+    text-align: left;
+}
+.nombre{
+    font-family:'Play', sans-serif;
+    color: aqua;
+    font-size: 40px;
+    
+}
+.img{
+    width: 50px;
+    justify-content: center;
+    row-gap: 15;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #090909;
+    padding: 20px;
+    align-items: center;
+    size: 70px;
+}
+.section{
+    font-family: 'Play', sans-serif ;
+    display: flex;
+    justify-content:space-around;
+    align-items: center; 
+    gap: 10px;
+    
+}
+.section div{
+    display: flex;
+    flex-direction: column;
+}
+.div p{
+    padding: 30px;
+}
+div a{
+    text-decoration: none;
+    color: white;
+    
+
+}
+.derechos{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    background-color:  #090909;
+    color: gray;
+}
