@@ -1,0 +1,96 @@
+/*Como funciona*/
+:root {
+    --fuenteParrafos: 'Orbitron', sans-serif;;
+
+    --primario: #19122F;
+    --blanco: #FFFFFF;  
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: var(--fuenteParrafos);
+    font-size: 1.6rem;
+    color: var(--blanco);
+    line-height: 2;
+    background-color: var(--primario);
+}
+.main__comofunciona,
+.main__boton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 2rem;
+}
+@media (min-width: 1024px) {
+    .main__comofunciona {
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 7rem 2rem;
+    }
+}
+.main__gamer1,
+.main__gamer2 {
+    height: 20rem;
+    width: 25rem; 
+}
+
+@media (min-width: 1024px) {
+    .main__gamer1 {
+        margin-bottom: 50rem;
+    }
+}
+@media (min-width: 1024px) {
+    .main__gamer2 {
+        margin-top: 35rem;
+    }
+}
+.main__texto {
+    text-align: center;
+}
+
+
+
+/* From uiverse.io by @adamgiebl */
+button {
+    --rosa: #f81cf8;
+    font-size: 15px;
+    padding: 0.7em 2.7em;
+    letter-spacing: 0.06em;
+    position: relative;
+    font-family: inherit;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid var(--rosa);
+    background: linear-gradient(to right, rgba(27, 87, 253, 0.1) 1%, transparent 40%,transparent 60% , rgba(208, 27, 253, 0.1) 100%);
+    color: var(--rosa);
+    box-shadow: inset 0 0 10px rgba(163, 4, 255, 0.4), 0 0 9px 3px rgba(216, 58, 248, 0.473);
+   }
+   
+   button:hover {
+    color: #8200fc;
+    box-shadow: inset 0 0 10px rgba(209, 56, 255, 0.6), 0 0 9px 3px rgba(208, 88, 255, 0.2);
+   }
+   
+   button:before {
+    content: "";
+    position: absolute;
+    left: -4em;
+    width: 4em;
+    height: 100%;
+    top: 0;
+    transition: transform .4s ease-in-out;
+    background: linear-gradient(to right, transparent 1%, rgba(163, 23, 245, 0.1) 40%,rgba(144, 27, 253, 0.1) 60% , transparent 100%);
+   }
+   
+   button:hover:before {
+    transform: translateX(15em);
+   }
