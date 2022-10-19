@@ -1,0 +1,14 @@
+.gradient-custom {
+    background: #b0acec;
+ 
+   
+    }
+    
+    .mask-custom {
+    background: rgba(70, 93, 112, 0.2);
+    border-radius: 2em;
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(211, 106, 193, 0.05);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(140, 59, 165, 0.03);
+    }
