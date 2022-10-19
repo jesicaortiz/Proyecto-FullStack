@@ -73,21 +73,3 @@ div.redes a {
     color: gray;
     font-size: 10px;
 }
-
-/*responsive*/
-@media(max-width: 767px){
-    .section div,
-    .derechos div{
-        width: 50%;
-        margin-bottom: 30px;
-        padding-left: 10px;
-    }
-}
-@media(max-width: 574px){
-    .section div,
-    .derechos div{
-        width: 100%;
-        padding-left: 10px;
-        align-items: column;
-    }
-}
