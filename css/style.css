@@ -60,6 +60,15 @@ footer div a {
     padding: 2px 0;
 }
 
+div.redes {
+    display: flex;
+}
+
+div.redes div.grupo-redes {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 div.redes a {
     margin: 0 4px;
 }
@@ -89,5 +98,10 @@ div.redes a {
         width: 100%;
         padding-left: 10px;
         align-items: column;
+    }
+}
+@media(max-width: 500px){
+    div.redes {
+        flex-direction: column;
     }
 }
