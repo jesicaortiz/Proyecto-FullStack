@@ -336,6 +336,7 @@ button {
 }
 
 .pie {
+    margin-top: 300px;
     background-color: #19122F;
     font-family: 'Orbitron', sans-serif;
     font-style: normal;
