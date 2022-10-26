@@ -394,6 +394,14 @@ footer div a {
 div.redes a {
     margin: 0 4px;
 }
+div.redes {
+    display: flex;
+}
+
+div.redes div.grupo-redes {
+    display: flex;
+    flex-wrap: nowrap;
+}
 
 .derechos {
     display: flex;
@@ -420,6 +428,11 @@ div.redes a {
         width: 100%;
         padding-left: 10px;
         align-items: column;
+    }
+}
+@media(max-width: 500px){
+    div.redes {
+        flex-direction: column;
     }
 }
    /*PAGINA CONTACTO*/
