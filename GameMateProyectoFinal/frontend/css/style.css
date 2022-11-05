@@ -1,5 +1,5 @@
 :root {
-    --fuente: 'Orbitron', sans-serif;
+    --fuente: 'Orbitron', sans-serif; 
     --primario: #19122F;
     --blanco: #FFFFFF;  
 }
@@ -437,11 +437,11 @@ div.redes div.grupo-redes {
     }
 }
    /*PAGINA CONTACTO*/
-   body{
+   body.contacto{
     background: #19122F;
     color:#ffff;
     padding: 0 1.5em;
-    font-family: var(--fuente);
+    font-family: 'Press Start 2P';
 }
 
 .content {
@@ -543,7 +543,7 @@ div.redes div.grupo-redes {
 
 i.fa-solid, i.fa-brands {
     padding-top: 3px;
-}*/
+}
 
 /* large screem*/
 @media (min-width: 1200px) {

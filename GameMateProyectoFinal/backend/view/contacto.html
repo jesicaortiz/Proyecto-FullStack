@@ -11,6 +11,8 @@
     <link
     rel="stylesheet"
     /> 
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="contacto">
@@ -18,7 +20,7 @@
         <h1 class="logo"> CONTACTANOS </h1>
         <div class="contact-wrapper">
             <div class="contact-form">
-                <form>
+                <form id="contact-form">
                     <p>
                         <label for="nombre"> Nombre: </label>
                         <input type="text" name="nombre" id="nombre" pattern="[A-Za-z]">
@@ -65,6 +67,26 @@
                 </p>
             </div>
         </div>
-    </div> 
+    </div>
+    <!-- Accion de envio (submit) del formulario de contacto -->
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#contact-form").on("submit", sendForm);
+        });
+
+        function sendForm(){
+            event.preventDefault();
+            var formData = $(this).serialize();
+
+            $.ajax({
+                url: "", // Este es el url para la accion correspondiente con el formulario de contacto en el backend
+                data: formData,
+                success: function (data) {
+                    window.location.href = ""; // url de main
+                }
+            });
+        }
+    </script>
 </body>
 </html>

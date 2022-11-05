@@ -8,13 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/registro.css">
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="css/formulario.css">
 </head>
 <body>
     <div class="container__form">
-        <form id="registro_formulario">
+        <form action="">
             <h1 class="container__form--title">CREA TU CUENTA</h1>
             <div class="container__form--campus">
                 <div class="campus">
@@ -46,30 +44,9 @@
                 REGISTRATE
                 </a>
             <div class="container__form--login">
-                <p>¿Ya tienes una cuenta? Inicia sesión <a href="login.html">AQUÍ</a></p>
+                <p>¿Ya tienes una cuenta? Inicia sesión <a href="../frontend/inicio_sesion.html">AQUÍ</a></p>
             </div>
         </form>
     </div>
-
-    <!-- Accion de envio (submit) del formulario de registro -->
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $("#registro_formulario").on("submit", sendForm);
-        });
-
-        function sendForm(){
-            event.preventDefault();
-            var formData = $(this).serialize();
-
-            $.ajax({
-                url: "", // Este es el url para la accion correspondiente con el formulario de contacto en el backend
-                data: formData,
-                success: function (data) {
-                    window.location.href = ""; // url de main
-                }
-            });
-        }
-    </script>
-
 </body>
 </html>
